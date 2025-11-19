@@ -1,0 +1,157 @@
+{
+  "statusCode": 0,
+  "data": {
+    "cards": [
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+          "info": {
+            "id": "603438",
+            "name": "Chinese Wok",
+            "cloudinaryImageId": "e0839ff574213e6f35b3899ebf1fc597",
+            "locality": "Sector 7",
+            "areaName": "Rohini",
+            "costForTwo": "₹250 for two",
+            "cuisines": ["Chinese", "Asian", "Tibetan", "Desserts"],
+            "avgRating": 4.2
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                    "title": "Chef's Recommended",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "201",
+                            "name": "Veg Hakka Noodles",
+                            "category": "Noodles",
+                            "description": "Stir-fried noodles with mixed vegetables, soy sauce, and garlic.",
+                            "imageId": "VegHakkaNoodles.jpg",
+                            "isVeg": true,
+                            "price": 18900,
+                            "ratings": { "aggregatedRating": { "rating": "4.4" } }
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "202",
+                            "name": "Chicken Fried Rice",
+                            "category": "Rice",
+                            "description": "Classic Chinese-style fried rice with tender chicken pieces.",
+                            "imageId": "ChickenFriedRice.jpg",
+                            "isVeg": false,
+                            "price": 21900,
+                            "ratings": { "aggregatedRating": { "rating": "4.5" } }
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "203",
+                            "name": "Chilli Paneer Gravy",
+                            "category": "Gravy",
+                            "description": "Cottage cheese cooked in spicy Chinese-style sauce with capsicum and onions.",
+                            "imageId": "ChilliPaneerGravy.jpg",
+                            "isVeg": true,
+                            "price": 23900,
+                            "ratings": { "aggregatedRating": { "rating": "4.3" } }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                    "title": "Starters",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "204",
+                            "name": "Veg Spring Rolls",
+                            "category": "Starters",
+                            "description": "Crispy fried rolls filled with spiced veggies.",
+                            "imageId": "VegSpringRolls.jpg",
+                            "isVeg": true,
+                            "price": 16900
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "205",
+                            "name": "Chicken Momos (8 pcs)",
+                            "category": "Starters",
+                            "description": "Steamed dumplings filled with spiced minced chicken.",
+                            "imageId": "ChickenMomos.jpg",
+                            "isVeg": false,
+                            "price": 17900
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                    "title": "Beverages & Desserts",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "206",
+                            "name": "Brownie with Ice Cream",
+                            "category": "Desserts",
+                            "description": "Warm brownie served with vanilla ice cream.",
+                            "imageId": "BrowniewithIceCream.jpg",
+                            "isVeg": true,
+                            "price": 15900
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "207",
+                            "name": "Coke 475ml",
+                            "category": "Beverages",
+                            "description": "Chilled Coca-Cola bottle.",
+                            "imageId": "Coke.jpg",
+                            "isVeg": true,
+                            "price": 6900
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

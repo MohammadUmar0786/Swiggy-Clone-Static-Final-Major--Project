@@ -1,0 +1,194 @@
+{
+  "statusCode": 0,
+  "data": {
+    "cards": [
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+          "info": {
+            "id": "26723",
+            "name": "KFC",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/10/kfc-delhi.jpg",
+            "locality": "Rohini",
+            "areaName": "Sector 10",
+            "costForTwo": "₹450 for two",
+            "cuisines": ["Burgers", "Fast Food", "Snacks", "Biryani"],
+            "avgRating": 4.2
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                    "title": "Chicken Buckets",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "501",
+                            "name": "5pc Hot & Crispy Chicken",
+                            "category": "Buckets",
+                            "description": "Signature KFC crispy fried chicken with secret herbs and spices.",
+                            "imageId": "kfcchicken1",
+                            "isVeg": false,
+                            "price": 49900,
+                            "ratings": { "aggregatedRating": { "rating": "4.4" } }
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "502",
+                            "name": "6pc Smoky Red Chicken",
+                            "category": "Buckets",
+                            "description": "Smoky and spicy grilled chicken pieces bursting with flavor.",
+                            "imageId": "kfcsmoky1",
+                            "isVeg": false,
+                            "price": 57900,
+                            "ratings": { "aggregatedRating": { "rating": "4.3" } }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                    "title": "Burgers & Meals",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "503",
+                            "name": "Zinger Burger",
+                            "category": "Burgers",
+                            "description": "Crispy chicken fillet with lettuce and mayo in a sesame bun.",
+                            "imageId": "kfcburger1",
+                            "isVeg": false,
+                            "price": 19900,
+                            "ratings": { "aggregatedRating": { "rating": "4.5" } }
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "504",
+                            "name": "Veg Zinger Burger",
+                            "category": "Burgers",
+                            "description": "Crunchy veg patty with lettuce and tangy sauce.",
+                            "imageId": "kfcveg1",
+                            "isVeg": true,
+                            "price": 16900,
+                            "ratings": { "aggregatedRating": { "rating": "4.2" } }
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "505",
+                            "name": "Zinger Pro Burger Meal",
+                            "category": "Meals",
+                            "description": "Zinger Pro Burger + Fries + Pepsi (475ml)",
+                            "imageId": "kfcmeal1",
+                            "isVeg": false,
+                            "price": 32900
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                    "title": "Rice Bowls",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "506",
+                            "name": "Chicken Rice Bowl",
+                            "category": "Rice",
+                            "description": "Spicy chicken gravy served over aromatic rice.",
+                            "imageId": "kfcrice1",
+                            "isVeg": false,
+                            "price": 25900
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "507",
+                            "name": "Veg Rice Bowl",
+                            "category": "Rice",
+                            "description": "Mixed veggies and gravy over flavorful rice.",
+                            "imageId": "kfcrice2",
+                            "isVeg": true,
+                            "price": 19900
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                    "title": "Snacks & Sides",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "508",
+                            "name": "Peri Peri Fries",
+                            "category": "Sides",
+                            "description": "Crispy fries sprinkled with spicy peri peri seasoning.",
+                            "imageId": "kfcfries1",
+                            "isVeg": true,
+                            "price": 11900
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "509",
+                            "name": "Choco Lava Cake",
+                            "category": "Desserts",
+                            "description": "Warm chocolate cake with molten chocolate filling.",
+                            "imageId": "kfclava1",
+                            "isVeg": true,
+                            "price": 12900
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

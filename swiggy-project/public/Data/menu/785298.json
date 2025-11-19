@@ -1,0 +1,171 @@
+{
+  "statusCode": 0,
+  "data": {
+    "cards": [
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+          "info": {
+            "id": "785298",
+            "name": "Olio – The Wood Fired Pizzeria",
+            "cloudinaryImageId": "f8d3c693c4f772fa7642e3a6d0a69f1f",
+            "locality": "Rohini",
+            "areaName": "Sector 9",
+            "costForTwo": "₹400 for two",
+            "cuisines": ["Italian", "Pizzas", "Pastas", "Desserts"],
+            "avgRating": 4.4
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                    "title": "Recommended",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "301",
+                            "name": "Classic Margherita Pizza",
+                            "category": "Pizzas",
+                            "description": "Wood-fired thin crust pizza topped with tomato sauce and mozzarella.",
+                            "imageId": "ClassicMargheritaPizza.jpg",
+                            "isVeg": true,
+                            "price": 26900,
+                            "ratings": { "aggregatedRating": { "rating": "4.6" } }
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "302",
+                            "name": "Peri Peri Chicken Pizza",
+                            "category": "Pizzas",
+                            "description": "Spicy peri peri chicken with bell peppers and olives on wood-fired crust.",
+                            "imageId": "PeriPeriChickenPizza.jpg",
+                            "isVeg": false,
+                            "price": 35900,
+                            "ratings": { "aggregatedRating": { "rating": "4.5" } }
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "303",
+                            "name": "Four Cheese Pizza",
+                            "category": "Pizzas",
+                            "description": "Blend of mozzarella, cheddar, parmesan, and feta on signature crust.",
+                            "imageId": "FourCheesePizza.jpg",
+                            "isVeg": true,
+                            "price": 37900,
+                            "ratings": { "aggregatedRating": { "rating": "4.7" } }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                    "title": "Pasta & Starters",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "304",
+                            "name": "Creamy Alfredo Pasta",
+                            "category": "Pastas",
+                            "description": "Penne tossed in creamy Alfredo sauce with herbs.",
+                            "imageId": "CreamyAlfredoPasta.jpg",
+                            "isVeg": true,
+                            "price": 29900
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "305",
+                            "name": "Garlic Bread with Cheese",
+                            "category": "Starters",
+                            "description": "Wood-fired garlic bread topped with melted cheese.",
+                            "imageId": "GarlicBreadwithCheese.jpg",
+                            "isVeg": true,
+                            "price": 13900
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "306",
+                            "name": "BBQ Chicken Wings (6 pcs)",
+                            "category": "Starters",
+                            "description": "Smoky BBQ chicken wings with tangy glaze.",
+                            "imageId": "BBQChickenWings(6 pcs).jpg",
+                            "isVeg": false,
+                            "price": 22900
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                    "title": "Desserts & Beverages",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "307",
+                            "name": "Tiramisu Cup",
+                            "category": "Desserts",
+                            "description": "Coffee-flavoured Italian dessert with mascarpone.",
+                            "imageId": "TiramisuCup.jpg",
+                            "isVeg": true,
+                            "price": 17900
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "308",
+                            "name": "Coke 475ml",
+                            "category": "Beverages",
+                            "description": "Chilled Coca-Cola bottle.",
+                            "imageId": "Coke475ml.jpg",
+                            "isVeg": true,
+                            "price": 6900
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

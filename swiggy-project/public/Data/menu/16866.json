@@ -1,0 +1,121 @@
+{
+  "statusCode": 0,
+  "data": {
+    "cards": [
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+          "info": {
+            "id": "16866",
+            "name": "Pizza Hut",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/9/1/24ea3d93-6246-4c69-a078-7a8fa133a7d3_16866.JPG",
+            "locality": "Sector 3",
+            "areaName": "Rohini",
+            "costForTwo": "₹350 for two",
+            "cuisines": ["Pizzas", "Beverages"],
+            "avgRating": 4.3
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                    "title": "Recommended",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "101",
+                            "name": "Margherita Pizza",
+                            "category": "Pizzas",
+                            "description": "Classic cheese and tomato pizza.",
+                            "imageId": "margherita.jpg",
+                            "isVeg": true,
+                            "price": 24900,
+                            "ratings": { "aggregatedRating": { "rating": "4.6" } }
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "102",
+                            "name": "Veggie Supreme Pizza",
+                            "category": "Pizzas",
+                            "description": "Loaded with crunchy onions, crisp capsicum, and juicy tomatoes.",
+                            "imageId": "veggieSupreme.jpg",
+                            "isVeg": true,
+                            "price": 37900,
+                            "ratings": { "aggregatedRating": { "rating": "4.4" } }
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "103",
+                            "name": "Chicken Pepperoni Pizza",
+                            "category": "Pizzas",
+                            "description": "Delicious pizza with pepperoni slices and mozzarella cheese.",
+                            "imageId": "ChickenPepperoniPizza.jpg",
+                            "isVeg": false,
+                            "price": 42900,
+                            "ratings": { "aggregatedRating": { "rating": "4.5" } }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                    "title": "Sides & Beverages",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "104",
+                            "name": "Garlic Breadsticks",
+                            "category": "Sides",
+                            "description": "Freshly baked breadsticks topped with garlic and butter.",
+                            "imageId": "GarlicBreadsticks.jpg",
+                            "isVeg": true,
+                            "price": 11900
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                          "info": {
+                            "id": "105",
+                            "name": "Pepsi 475ml",
+                            "category": "Beverages",
+                            "description": "Chilled Pepsi bottle.",
+                            "imageId": "Pepsi.jpg",
+                            "isVeg": true,
+                            "price": 6900
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}
