@@ -1,4 +1,5 @@
 export default function RestaurantMenuItem({ info }) {
+  
   return (
     <div className="flex justify-between items-start border-b pb-3">
 

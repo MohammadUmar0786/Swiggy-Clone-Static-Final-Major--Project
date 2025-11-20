@@ -5,6 +5,7 @@ import RestaurantMenuItem from "./RestaurantMenuItem";
 export default function RestaurantMenu() {
   const { id } = useParams();
   const [menuData, setMenuData] = useState(null);
+  const [selected, setSelected] =useState(null);
 
   useEffect(() => {
     async function fetchMenu() {
@@ -36,16 +37,35 @@ export default function RestaurantMenu() {
         const items = category.card?.itemCards || [];
         if (!items.length) return null;
 
+       // Filter: Veg & NonVeg
+      
+          let filteredItems = items;
+
+          if (selected === "veg") {
+            filteredItems = items.filter((i) => i.card.info.isVeg === true);
+          }
+
+          if (selected === "nonveg") {
+            filteredItems = items.filter((i) => i.card.info.isVeg === false);
+          }
+
         return (
+       
+          <div>
+            <div className=" mt-10 mb-10">
+              <button className= {`text-xl py-2 px-8 mr-4 border rounded-2xl ${selected=="veg"?"bg-green-600 text-white":"bg-gray-300"}`} onClick={()=>setSelected(selected==='veg'?null:'veg')}>Veg</button>
+              <button className= {`text-xl py-2 px-8 mr-4 border rounded-2xl ${selected=="nonveg"?"bg-red-600 text-white":"bg-gray-300"}`} onClick={()=>setSelected(selected==='nonveg'?null:'nonveg')}>Non veg</button>
+            </div>
           <div key={index} className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">{title}</h2>
 
             <div className="space-y-4">
-              {items.map((item) => (
+              {filteredItems.map((item) => (
                 <RestaurantMenuItem key={item.card.info.id} info={item.card.info} />
               ))}
             </div>
           </div>
+        </div>
         );
       })}
     </div>
