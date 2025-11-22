@@ -35,7 +35,7 @@
                             "name": "Whopper Jr Veg",
                             "category": "Burgers",
                             "description": "Crispy veg patty with fresh lettuce, tomatoes, and creamy mayo in a toasted bun.",
-                            "imageId": "bkveg1",
+                            "imageId": "WhopperJrVeg.jpg",
                             "isVeg": true,
                             "price": 16900,
                             "ratings": { "aggregatedRating": { "rating": "4.5" } }
@@ -50,7 +50,7 @@
                             "name": "Chicken Whopper",
                             "category": "Burgers",
                             "description": "Signature flame-grilled chicken patty with cheese and sauces.",
-                            "imageId": "bkchicken1",
+                            "imageId": "ChickenWhopper.jpg",
                             "isVeg": false,
                             "price": 23900,
                             "ratings": { "aggregatedRating": { "rating": "4.4" } }
@@ -65,7 +65,7 @@
                             "name": "Paneer Royale Burger",
                             "category": "Burgers",
                             "description": "Crispy paneer patty layered with creamy sauce and lettuce.",
-                            "imageId": "bkpaneer1",
+                            "imageId": "PaneerRoyaleBurger.jpg",
                             "isVeg": true,
                             "price": 21900,
                             "ratings": { "aggregatedRating": { "rating": "4.3" } }
@@ -88,7 +88,7 @@
                             "name": "Veg Whopper Meal",
                             "category": "Combos",
                             "description": "Veg Whopper + Fries + Pepsi (475ml)",
-                            "imageId": "combo1",
+                            "imageId": "VegWhopperMeal.jpg",
                             "isVeg": true,
                             "price": 28900
                           }
@@ -102,7 +102,7 @@
                             "name": "Chicken Whopper Meal",
                             "category": "Combos",
                             "description": "Chicken Whopper + Fries + Pepsi (475ml)",
-                            "imageId": "combo2",
+                            "imageId": "ChickenWhopperMeal.jpg",
                             "isVeg": false,
                             "price": 31900
                           }
@@ -124,7 +124,7 @@
                             "name": "French Fries (Medium)",
                             "category": "Sides",
                             "description": "Crispy golden fries served hot and salted.",
-                            "imageId": "fries1",
+                            "imageId": "FrenchFries(Medium).jpg",
                             "isVeg": true,
                             "price": 9900
                           }
@@ -138,7 +138,7 @@
                             "name": "Coke 475ml",
                             "category": "Beverages",
                             "description": "Chilled Coca-Cola bottle.",
-                            "imageId": "coke3",
+                            "imageId": "Coke475ml.jpg",
                             "isVeg": true,
                             "price": 6900
                           }
@@ -160,7 +160,7 @@
                             "name": "Chocolate Mousse Cup",
                             "category": "Desserts",
                             "description": "Rich and creamy chocolate mousse topped with choco chips.",
-                            "imageId": "mousse1",
+                            "imageId": "ChocolateMousseCup.jpg",
                             "isVeg": true,
                             "price": 12900
                           }
