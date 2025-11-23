@@ -25,7 +25,7 @@ export default function RestaurantMenu() {
   const categories = menuData?.data?.cards?.[1]?.groupedCard?.cardGroupMap?.REGULAR?.cards || [];
 
   return (
-    <div className="p-6 max-w-4xl mx-auto">
+    <div className="p-6 max-w-4xl mx-auto pt-30">
 
       {/* Restaurant Info */}
       <h1 className="text-3xl font-bold mb-2">{restaurantInfo?.name}</h1>

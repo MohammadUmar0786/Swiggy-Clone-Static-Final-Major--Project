@@ -1,0 +1,93 @@
+{
+  "statusCode": 0,
+  "data": {
+    "cards": [
+      {
+        "card": {
+          "info": {
+            "id": "30003",
+            "name": "Apni Veg Rasoi",
+            "cloudinaryImageId": "ApniVegRasoi.jpg",
+            "locality": "Rohini",
+            "areaName": "Sector 2",
+            "costForTwo": "₹200 for two",
+            "cuisines": ["North Indian", "Thalis", "Pure Veg"],
+            "avgRating": 4.1
+          }
+        }
+      },
+
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "title": "North Indian Thali",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "info": {
+                            "id": "701",
+                            "name": "Deluxe Veg Thali",
+                            "description": "Dal, paneer, roti, rice, salad & sweet.",
+                            "imageId": "DeluxeVegThali.jpg",
+                            "isVeg": true,
+                            "price": 15900
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "info": {
+                            "id": "702",
+                            "name": "Special Rasoi Thali",
+                            "description": "Includes 2 sabzis + dal + roti + rice + gulab jamun.",
+                            "imageId": "SpecialRasoiThali.jpg",
+                            "isVeg": true,
+                            "price": 18900
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+
+                {
+                  "card": {
+                    "title": "Sabzi Section",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "info": {
+                            "id": "703",
+                            "name": "Paneer Butter Masala",
+                            "imageId": "PBM.jpg",
+                            "isVeg": true,
+                            "price": 16900
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "info": {
+                            "id": "704",
+                            "name": "Aloo Jeera",
+                            "imageId": "AlooJeera.jpg",
+                            "isVeg": true,
+                            "price": 9900
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

@@ -47,7 +47,7 @@ if (food && food.trim() !== "") {
 }
 
     return(
-        <div className="mt-20 w-[80%] mx-auto">
+        <div className="mt-30 w-[80%] mx-auto">
             <input className="w-full text-2xl bg-gray-200 border rounded-2xl pl-10 py-3" placeholder="Search here" onChange={(e)=>setFood(e.target.value)}></input>
             <div className="mt-10 space-y-5">
 

@@ -1,0 +1,104 @@
+{
+  "statusCode": 0,
+  "data": {
+    "cards": [
+      {
+        "card": {
+          "info": {
+            "id": "30002",
+            "name": "Subway",
+            "cloudinaryImageId": "SubwayShop.jpg",
+            "locality": "Rohini",
+            "areaName": "Sector 7",
+            "costForTwo": "₹400 for two",
+            "cuisines": ["Healthy Food", "Salads", "Fast Food"],
+            "avgRating": 4.4
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "title": "6-Inch Subs",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "info": {
+                            "id": "601",
+                            "name": "Veggie Delite Sub",
+                            "description": "Fresh veggies in soft bread.",
+                            "imageId": "VeggieDelite.jpg",
+                            "isVeg": true,
+                            "price": 14900
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "info": {
+                            "id": "602",
+                            "name": "Paneer Tikka Sub",
+                            "description": "Spicy paneer tikka filling.",
+                            "imageId": "PaneerTikkaSub.jpg",
+                            "isVeg": true,
+                            "price": 17900
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "info": {
+                            "id": "603",
+                            "name": "Chicken Slice Sub",
+                            "description": "Juicy chicken slices with cheese.",
+                            "imageId": "ChickenSliceSub.jpg",
+                            "isVeg": false,
+                            "price": 19900
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+
+                {
+                  "card": {
+                    "title": "Salads",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "info": {
+                            "id": "604",
+                            "name": "Veg Salad Bowl",
+                            "imageId": "VegSalad.jpg",
+                            "isVeg": true,
+                            "price": 15900
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "info": {
+                            "id": "605",
+                            "name": "Chicken Salad Bowl",
+                            "imageId": "ChickenSalad.jpg",
+                            "isVeg": false,
+                            "price": 18900
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

@@ -5,7 +5,7 @@ export default function FoodOptions2(){
 
     return(
 
-        <div className="mt-25">
+        <div className="mt-30">
 
         
             <h1 className="w-[77%] container mx-auto mb-7 text-2xl font-bold">What's on your mind?</h1>

@@ -1,0 +1,113 @@
+{
+  "statusCode": 0,
+  "data": {
+    "cards": [
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+          "info": {
+            "id": "30001",
+            "name": "Big Bowl",
+            "cloudinaryImageId": "BigBowlShop.jpg",
+            "locality": "Rohini",
+            "areaName": "Sector 9",
+            "costForTwo": "₹250 for two",
+            "cuisines": ["Chinese", "Tibetan", "Fast Food"],
+            "avgRating": 4.2
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                    "title": "Signature Bowls",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "info": {
+                            "id": "501",
+                            "name": "Veg Manchurian Bowl",
+                            "category": "Bowls",
+                            "description": "Crispy veg manchurian served with rice & gravy.",
+                            "imageId": "VegManchurianBowl.jpg",
+                            "isVeg": true,
+                            "price": 19900
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "info": {
+                            "id": "502",
+                            "name": "Chilli Garlic Noodles Bowl",
+                            "category": "Bowls",
+                            "description": "Spicy garlic noodles with veggies.",
+                            "imageId": "ChilliGarlicNoodles.jpg",
+                            "isVeg": true,
+                            "price": 17900
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "info": {
+                            "id": "503",
+                            "name": "Chicken Hot & Sour Bowl",
+                            "category": "Bowls",
+                            "description": "Chicken bowl served with spicy & tangy gravy.",
+                            "imageId": "ChickenHnS.jpg",
+                            "isVeg": false,
+                            "price": 21900
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+
+                {
+                  "card": {
+                    "title": "Sides",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "info": {
+                            "id": "504",
+                            "name": "Spring Rolls (4 pcs)",
+                            "category": "Sides",
+                            "description": "Crispy veg spring rolls.",
+                            "imageId": "SpringRolls.jpg",
+                            "isVeg": true,
+                            "price": 12900
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "info": {
+                            "id": "505",
+                            "name": "Chicken Momos (6 pcs)",
+                            "category": "Sides",
+                            "description": "Steamed chicken momos served hot.",
+                            "imageId": "ChickenMomos.jpg",
+                            "isVeg": false,
+                            "price": 14900
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

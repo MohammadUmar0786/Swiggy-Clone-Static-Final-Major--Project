@@ -1,0 +1,80 @@
+{
+  "statusCode": 0,
+  "data": {
+    "cards": [
+      {
+        "card": {
+          "info": {
+            "id": "30005",
+            "name": "Grameen Kulfi",
+            "cloudinaryImageId": "GrameenKulfiStore.jpg",
+            "locality": "Rohini",
+            "areaName": "Sector 3",
+            "costForTwo": "₹200 for two",
+            "cuisines": ["Desserts", "Ice Cream"],
+            "avgRating": 4.6
+          }
+        }
+      },
+
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "title": "Kulfis",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "info": {
+                            "id": "901",
+                            "name": "Malai Kulfi Stick",
+                            "imageId": "MalaiKulfi.jpg",
+                            "isVeg": true,
+                            "price": 7900
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "info": {
+                            "id": "902",
+                            "name": "Kesar Pista Kulfi",
+                            "imageId": "KesarPistaKulfi.jpg",
+                            "isVeg": true,
+                            "price": 8900
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+
+                {
+                  "card": {
+                    "title": "Ice Cream Cups",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "info": {
+                            "id": "903",
+                            "name": "Choco Chip Cup",
+                            "imageId": "ChocoChipCup.jpg",
+                            "isVeg": true,
+                            "price": 11900
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

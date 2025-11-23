@@ -1,4 +1,3 @@
-//import { useState, useEffect } from "react";
 import { TopRestaurants } from "../Utils/RestaurantsData";
 import FoodOptions2 from "./FoodOptions2";
 import RestaurantsCard from "./RestaurantsCard";
@@ -14,7 +13,9 @@ export default function RestaurantsOptions(){
         
         <FoodOptions2/>
 
-        <div className="w-[80%] container mx-auto mt-25 mb-10">
+        <div className="w-[80%] container mx-auto mt-15 mb-10">
+
+                 <hr className="my-8 border-[1px] border-gray-200" />
 
             <h2 className="text-2xl font-bold mb-5">Top restaurant chains in Delhi</h2>
 

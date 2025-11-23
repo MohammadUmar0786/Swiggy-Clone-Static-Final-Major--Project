@@ -1,0 +1,91 @@
+{
+  "statusCode": 0,
+  "data": {
+    "cards": [
+      {
+        "card": {
+          "info": {
+            "id": "30004",
+            "name": "Bakino",
+            "cloudinaryImageId": "BakinoStore.jpg",
+            "locality": "Rohini",
+            "areaName": "Sector 6",
+            "costForTwo": "₹350 for two",
+            "cuisines": ["Pizzas", "Italian", "Pastas"],
+            "avgRating": 4.3
+          }
+        }
+      },
+
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "title": "Pizzas",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "info": {
+                            "id": "801",
+                            "name": "Farmhouse Pizza",
+                            "imageId": "FarmhousePizza.jpg",
+                            "isVeg": true,
+                            "price": 29900
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "info": {
+                            "id": "802",
+                            "name": "Chicken Loaded Pizza",
+                            "imageId": "ChickenLoadedPizza.jpg",
+                            "isVeg": false,
+                            "price": 34900
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+
+                {
+                  "card": {
+                    "title": "Pastas",
+                    "itemCards": [
+                      {
+                        "card": {
+                          "info": {
+                            "id": "803",
+                            "name": "Red Sauce Pasta",
+                            "imageId": "RedSaucePasta.jpg",
+                            "isVeg": true,
+                            "price": 19900
+                          }
+                        }
+                      },
+                      {
+                        "card": {
+                          "info": {
+                            "id": "804",
+                            "name": "White Sauce Chicken Pasta",
+                            "imageId": "ChickenWhitePasta.jpg",
+                            "isVeg": false,
+                            "price": 22900
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}
