@@ -2,23 +2,33 @@ import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import RestaurantMenuItem from "./RestaurantMenuItem";
 import MenuNotAvailable from "./MenuNotAvailable";
+import MenuLoader from "./MenuLoader";
 
 export default function RestaurantMenu() {
   const { id } = useParams();
   const [menuData, setMenuData] = useState(null);
   const [selected, setSelected] = useState(null);
+  const [loading, setLoading] = useState(true); // new
 
-  useEffect(() => {
-    async function fetchMenu() {
+useEffect(() => {
+  async function fetchMenu() {
+    setLoading(true);               // start loading
+    try {
       const res = await fetch(`/Data/menu/${id}.json`);
       const data = await res.json();
-      //console.log(data);
       setMenuData(data);
+    } catch (err) {
+      setMenuData(null);             // handle fetch errors
+    } finally {
+      setLoading(false);             // stop loading
     }
-    fetchMenu();
-  }, [id]);
+  }
+  fetchMenu();
+}, [id]);
 
-  if (!menuData) return <MenuNotAvailable/>;
+
+if (loading) return <MenuLoader />;       // show shimmer while loading
+if (!menuData) return <MenuNotAvailable />; // show unavailable only if data is null
 
   const restaurantInfo = menuData?.data?.cards?.[0]?.card?.info;
 

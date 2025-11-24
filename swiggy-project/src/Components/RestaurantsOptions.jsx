@@ -3,7 +3,6 @@ import FoodOptions2 from "./FoodOptions2";
 import RestaurantsCard from "./RestaurantsCard";
 import AllRestaurantsOptions from "./AllRestaurantsOptions";
 
-
 export default function RestaurantsOptions(){
 
 
